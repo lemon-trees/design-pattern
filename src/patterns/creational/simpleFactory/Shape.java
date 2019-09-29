@@ -1,4 +1,4 @@
-package patterns.creational.factory;
+package patterns.creational.simpleFactory;
 
 public interface Shape {
 

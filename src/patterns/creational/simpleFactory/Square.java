@@ -1,4 +1,4 @@
-package patterns.creational.factory;
+package patterns.creational.simpleFactory;
 
 /**
  * @author：lanmengxi@viomi.com.cn

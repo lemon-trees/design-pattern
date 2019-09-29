@@ -1,4 +1,4 @@
-package patterns.creational.factory;
+package patterns.creational.simpleFactory;
 
 /**
  * @author：lanmengxi@viomi.com.cn
@@ -6,10 +6,10 @@ package patterns.creational.factory;
  * @description
  * @since version 初始于版本
  */
-public class Rectangle implements Shape {
+public class Circle implements Shape {
 
     @Override
     public void draw() {
-        System.out.println("draw a rectangle");
+        System.out.println("draw a circle");
     }
 }
