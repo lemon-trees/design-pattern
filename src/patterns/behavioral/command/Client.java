@@ -7,7 +7,7 @@ public class Client
 {
     public static void main(String[] args)
     {
-        Invoker invoker = new Invoker();
+        Invoker invoker = Invoker.getInstance();
         invoker.lightOn();
         invoker.lightOff();
     }

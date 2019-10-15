@@ -5,11 +5,29 @@ import java.util.Map;
 
 public class Invoker
 {
+    private static volatile Invoker invoker;
+    
     private Map<String, Command> actionTypeCommandMap;
     
-    public Invoker()
+    private Invoker()
     {
         init();
+    }
+    
+    public static Invoker getInstance()
+    {
+        if(invoker == null)
+        {
+            synchronized (Invoker.class)
+            {
+                if(invoker == null)
+                {
+                    invoker = new Invoker();
+                }
+            }
+            
+        }
+        return invoker;
     }
     
     private void init()
