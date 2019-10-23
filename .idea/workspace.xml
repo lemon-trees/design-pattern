@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7006329b-a52e-4ff8-973d-83c23b0706fb" name="Default Changelist" comment="添加备忘录模式">
-      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/patterns/creational/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/observer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/observer/CurrentConditionDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/observer/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/observer/StatisticsDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/observer/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/patterns/behavioral/observer/WeatherData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,7 +23,7 @@
       <file leaf-file-name="CareTaker.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/black/CareTaker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state>
               <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
                 <element signature="e#148#149#0" expanded="true" />
@@ -35,72 +39,74 @@
         <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/black/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Memento.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/multiCheckPoint/Memento.java">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/observer/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CurrentConditionDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/observer/CurrentConditionDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#213#214#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Subject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/observer/Subject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/observer/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StatisticsDisplay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/observer/StatisticsDisplay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding>
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#151#152#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/multiCheckPoint/Client.java">
+      <file leaf-file-name="WeatherData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/observer/WeatherData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CareTaker.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/multiCheckPoint/CareTaker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-113">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="548">
+              <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#316#317#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/creational/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/patterns/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package-info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/package-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -110,9 +116,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="package-info" />
       </list>
     </option>
   </component>
@@ -122,12 +128,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/patterns/behavioral/chainOfResponsibility/Client.java" />
-        <option value="$PROJECT_DIR$/src/patterns/behavioral/chainOfResponsibility/RequestHandler2.java" />
-        <option value="$PROJECT_DIR$/src/patterns/behavioral/chainOfResponsibility/Handler.java" />
-        <option value="$PROJECT_DIR$/src/patterns/behavioral/command/Command.java" />
-        <option value="$PROJECT_DIR$/src/patterns/behavioral/command/LightOnCommand.java" />
-        <option value="$PROJECT_DIR$/src/patterns/behavioral/command/LightOffCommand.java" />
         <option value="$PROJECT_DIR$/src/patterns/behavioral/command/Invocker.java" />
         <option value="$PROJECT_DIR$/src/patterns/behavioral/command/Light.java" />
         <option value="$PROJECT_DIR$/src/patterns/behavioral/command/Client.java" />
@@ -173,6 +173,12 @@
         <option value="$PROJECT_DIR$/src/patterns/creational/package-info.java" />
         <option value="$PROJECT_DIR$/src/patterns/behavioral/package-info.java" />
         <option value="$PROJECT_DIR$/src/patterns/package-info.java" />
+        <option value="$PROJECT_DIR$/src/patterns/behavioral/observer/Observer.java" />
+        <option value="$PROJECT_DIR$/src/patterns/behavioral/observer/Subject.java" />
+        <option value="$PROJECT_DIR$/src/patterns/behavioral/observer/StatisticsDisplay.java" />
+        <option value="$PROJECT_DIR$/src/patterns/behavioral/observer/CurrentConditionDisplay.java" />
+        <option value="$PROJECT_DIR$/src/patterns/behavioral/observer/WeatherData.java" />
+        <option value="$PROJECT_DIR$/src/patterns/behavioral/observer/Client.java" />
       </list>
     </option>
   </component>
@@ -199,7 +205,7 @@
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <autoscrollToSource PackagesPane="true" />
       <autoscrollFromSource PackagesPane="true" />
       <foldersAlwaysOnTop value="true" />
@@ -223,11 +229,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="patterns" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="design-pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="design-pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="behavioral" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
@@ -236,10 +248,29 @@
               <item name="design-pattern" type="58d84e3e:PackageViewProjectNode" />
               <item name="design-pattern" type="616d4139:PackageViewModuleNode" />
             </path>
+            <path>
+              <item name="design-pattern" type="58d84e3e:PackageViewProjectNode" />
+              <item name="design-pattern" type="616d4139:PackageViewModuleNode" />
+              <item name="patterns" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="design-pattern" type="58d84e3e:PackageViewProjectNode" />
+              <item name="design-pattern" type="616d4139:PackageViewModuleNode" />
+              <item name="patterns" type="1f31426a:PackageElementNode" />
+              <item name="behavioral" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="design-pattern" type="58d84e3e:PackageViewProjectNode" />
+              <item name="design-pattern" type="616d4139:PackageViewModuleNode" />
+              <item name="patterns" type="1f31426a:PackageElementNode" />
+              <item name="behavioral" type="1f31426a:PackageElementNode" />
+              <item name="memento" type="1f31426a:PackageElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,6 +289,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="patterns.behavioral.interpreter" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\viomi\gitproject\design-pattern\src\patterns\behavioral\memento" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -271,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (3)">
+  <component name="RunManager" selected="Application.Client (4)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.behavioral.mediator.Client" />
       <module name="design-pattern" />
@@ -302,12 +336,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Client (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.interpreter.Client" />
+    <configuration name="Client (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="patterns.behavioral.observer.Client" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="patterns.behavioral.interpreter.*" />
+          <option name="PATTERN" value="patterns.behavioral.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -333,19 +367,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.Client (5)" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (3)" />
+      <item itemvalue="Application.Client (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (4)" />
         <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +409,8 @@
       <workItem from="1571277795468" duration="3607000" />
       <workItem from="1571363264362" duration="5979000" />
       <workItem from="1571390528238" duration="1688000" />
-      <workItem from="1571725065750" duration="5382000" />
+      <workItem from="1571725065750" duration="5763000" />
+      <workItem from="1571797253118" duration="1606000" />
     </task>
     <task id="LOCAL-00001" summary="添加生成器模式">
       <created>1570708747402</created>
@@ -454,11 +489,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571730358066</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="添加备忘录模式">
+      <created>1571730602727</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1571730602727</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53937000" />
+    <option name="totallyTimeSpent" value="55924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -473,14 +515,14 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50319827" side_tool="true" weight="0.31744313" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.31744313" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4968017" visible="true" weight="0.31744313" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.055254605" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4857143" visible="true" weight="0.15618336" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48412699" visible="true" weight="0.15778251" />
       <window_info anchor="right" id="Database" order="9" />
-      <window_info id="Structure" order="1" sideWeight="0.51428574" side_tool="true" visible="true" weight="0.15618336" />
+      <window_info id="Structure" order="1" sideWeight="0.515873" side_tool="true" visible="true" weight="0.15778251" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="4" />
@@ -490,11 +532,11 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Maven" order="5" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,30 +611,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/chainOfResponsibility/HandlerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/softwareinstall/jdk1.8.0_45/src.zip!/java/util/StringTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="235" column="9" lean-forward="true" selection-start-line="235" selection-start-column="9" selection-end-line="235" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/interpreter/OrExpression.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/interpreter/AndExpression.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/interpreter/TerminalExpression.java" />
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/interpreter/AddExpression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/interpreter/SubtractExpression.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -702,12 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -743,12 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#194#195#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,11 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
           <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#268#269#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -785,13 +786,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/Client.java" />
     <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/wihte/Memento.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -873,7 +868,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/black/CareTaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state>
           <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
           <folding>
             <element signature="e#148#149#0" expanded="true" />
@@ -881,33 +876,6 @@
             <element signature="e#236#237#0" expanded="true" />
             <element signature="e#274#275#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/multiCheckPoint/Memento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/black/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/multiCheckPoint/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -957,25 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/multiCheckPoint/CareTaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/patterns/creational/package-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -986,7 +935,108 @@
     <entry file="file://$PROJECT_DIR$/src/patterns/package-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/creational/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/multiCheckPoint/CareTaker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/multiCheckPoint/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/multiCheckPoint/Memento.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/memento/black/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/observer/CurrentConditionDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="89" selection-start-line="13" selection-start-column="89" selection-end-line="13" selection-end-column="89" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/observer/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/observer/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/observer/WeatherData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/observer/StatisticsDisplay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="e#151#152#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/patterns/behavioral/observer/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
         </state>
       </provider>
     </entry>
