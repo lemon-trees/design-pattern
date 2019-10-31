@@ -1,7 +1,7 @@
 package patterns.structure.adaptor;
 
 /**
- * 适配器模式
+ * 适配器模式：考虑和代理模式的区别、装饰器模式的区别？
  */
 public class Client
 {
